@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #2a3d66, #c4c9d3); /* Gradiente azul marinho e prata */
+    background: linear-gradient(135deg, #1a1a1a, #d1d1d1); /* Gradiente de cinza escuro e prata */
     background-size: 300% 300%;
     animation: gradientBackground 15s ease infinite; /* Animação suave do fundo */
     color: #fff;
@@ -34,14 +34,14 @@ body {
 header {
     text-align: center;
     padding: 100px 0;
-    background: rgba(0, 0, 0, 0.6); /* Fundo escuro para destacar o texto */
-    border-bottom: 3px solid #c4c9d3; /* Linha prata de destaque */
+    background: rgba(0, 0, 0, 0.7); /* Fundo escuro para destacar o texto */
+    border-bottom: 3px solid #b18b6a; /* Linha dourada para destaque */
 }
 
 header h1 {
     font-size: 4rem;
     letter-spacing: 2px;
-    color: #c4c9d3; /* Cor prata */
+    color: #b18b6a; /* Tom dourado suave */
     font-family: 'Georgia', serif;
     text-transform: uppercase;
 }
@@ -64,7 +64,7 @@ header .slogan {
 
 .sobre h2, .destaques h2, .fogos-de-venda h2 {
     font-size: 2.8rem;
-    color: #c4c9d3;
+    color: #b18b6a;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -119,7 +119,7 @@ header .slogan {
 }
 
 .fogos-de-venda {
-    background: linear-gradient(135deg, #c4c9d3, #2a3d66); /* Gradiente prata e azul marinho */
+    background: linear-gradient(135deg, #b18b6a, #1a1a1a); /* Gradiente burgundy e cinza */
 }
 
 .fogos-de-venda ul {
@@ -136,17 +136,17 @@ header .slogan {
 }
 
 .fogos-de-venda .highlight {
-    color: #c4c9d3;
+    color: #b18b6a;
     font-weight: 700;
 }
 
 footer {
-    background-color: #2a3d66;
+    background-color: #1a1a1a;
     color: #fff;
     padding: 30px 0;
     text-align: center;
     font-size: 1.1rem;
-    border-top: 3px solid #c4c9d3; /* Linha prata de destaque */
+    border-top: 3px solid #b18b6a; /* Linha dourada suave */
 }
 
 footer a {
@@ -155,5 +155,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #c4c9d3;
+    color: #b18b6a;
 }
