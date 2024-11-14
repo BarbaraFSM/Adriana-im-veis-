@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2a3d66, #c4c9d3); /* Gradiente azul marinho e prata */
+    background-size: 300% 300%;
+    animation: gradientBackground 15s ease infinite; /* Animação suave do fundo */
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 100px 0;
+    background: rgba(0, 0, 0, 0.6); /* Fundo escuro para destacar o texto */
+    border-bottom: 3px solid #c4c9d3; /* Linha prata de destaque */
+}
+
+header h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    color: #c4c9d3; /* Cor prata */
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+}
+
+header .slogan {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #e8e8e8;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.sobre, .destaques, .fogos-de-venda {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo levemente escuro */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+}
+
+.sobre h2, .destaques h2, .fogos-de-venda h2 {
+    font-size: 2.8rem;
+    color: #c4c9d3;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.sobre p, .fogos-de-venda ul {
+    font-size: 1.2rem;
+    color: #d1d1d1;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.destaques {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(51, 51, 51, 0.7)), url('luxury-paint-texture.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.destaques .imovel-card {
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9); /* Card branco semi-transparente */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.imovel-card .imovel-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.imovel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #333;
+}
+
+.imovel-titulo {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.imovel-info p {
+    font-size: 1.2rem;
+    color: #4f4f4f;
+}
+
+.fogos-de-venda {
+    background: linear-gradient(135deg, #c4c9d3, #2a3d66); /* Gradiente prata e azul marinho */
+}
+
+.fogos-de-venda ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.fogos-de-venda li {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.fogos-de-venda .highlight {
+    color: #c4c9d3;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #2a3d66;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.1rem;
+    border-top: 3px solid #c4c9d3; /* Linha prata de destaque */
+}
+
+footer a {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #c4c9d3;
+}
