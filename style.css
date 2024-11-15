@@ -157,3 +157,30 @@ footer a {
 footer a:hover {
     color: #b18b6a;
 }
+/* Estilos gerais */
+.imoveis-destaque {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Estilos para telas pequenas (smartphones) */
+@media (max-width: 767px) {
+    .imoveis-destaque {
+        width: 100%;
+        padding: 10px; /* Ajusta o espaçamento */
+        box-sizing: border-box;
+    }
+
+    .imoveis-destaque img {
+        width: 100%; /* Garante que a imagem ocupe toda a largura */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+    /* Ajusta o layout do texto, se necessário */
+    .imoveis-destaque .texto-destaque {
+        font-size: 16px; /* Ajusta o tamanho do texto */
+        text-align: center; /* Centraliza o texto */
+        padding: 5px;
+    }
+}
