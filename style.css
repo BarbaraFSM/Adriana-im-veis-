@@ -140,6 +140,51 @@ header .slogan {
     font-weight: 700;
 }
 
+.parceiros {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro suave */
+    color: #fff;
+}
+
+.parceiros h2 {
+    font-size: 2.8rem;
+    color: #b18b6a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.parceiros p {
+    font-size: 1.2rem;
+    color: #d1d1d1;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.parceiro-lista {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.parceiro-item {
+    text-align: center;
+    width: 150px;
+}
+
+.parceiro-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.parceiro-item p {
+    font-size: 1.1rem;
+    color: #d1d1d1;
+}
+
+
 footer {
     background-color: #1a1a1a;
     color: #fff;
